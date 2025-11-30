@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="assets/midea/cafe_do_jacu_icon_32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img id="logotipo" src="assets/midea/logo-cafe-sf.png" alt="Logotipo Café Jacu">
+
+        <nav aria-label="Menu principal">
+            <a href="index.html" aria-label="Ir para a página inicial">Home</a>
+            <a href="sobre.html" aria-label="Saber mais sobre a Fazenda Jacu">Sobre</a>
+            <a href="produtos.html" aria-label="Ver produtos">Produtos</a>
+            <a href="contato.html" aria-label="Abrir página de contato" aria-current="page">Contato</a>
+        </nav>
+    </header>
+
+    <main class="main">
+
+
+
+        <section id="section_formulario" aria-label="Formulário de contato">
+            <figure id="imagem_formulario">
+                <img src="assets/midea/coffee-1576552_640.jpg" alt="Imagem de café da Cafeteria Jacu">
+            </figure>
+
+            <form id="formulario" aria-label="Formulário de contato">
+                <h2>Entre em contato conosco</h2>
+                <p>Conecte-se com a <span class="cafe_jacu_form">Café Jacu</span> e descubra mais sobre nossos
+                    produtos, parcerias e iniciativas
+                    sustentáveis voltadas para inovação e responsabilidade contínua.</p>
+                <section id="icones_formularios">
+                    <a href="#" aria-label="Abrir Instagram">
+                        <figure class="icones_formularios">
+                            <img src="assets/midea/icone-instagram.png" alt="Ícone do Instagram">
+                        </figure>
+                    </a>
+
+                    <a href="#" aria-label="Abrir WhatsApp">
+                        <figure class="icones_formularios" id="icone_whatsapp" style="width: 75px;">
+                            <img src="assets/midea/icone-whatsapp.png" alt="Ícone do WhatsApp">
+                        </figure>
+                    </a>
+                    <a href="#" aria-label="Abrir e-mail">
+                        <figure class="icones_formularios">
+                            <img src="assets/midea/icone-email.png" alt="Ícone de e-mail">
+                        </figure>
+                    </a>
+                </section>
+
+                <input class="input" type="text" placeholder="Seu nome" id="nome" name="Nome" required
+                    aria-label="Seu nome">
+                <input class="input" type="email" placeholder="Seu e-mail" id="email" name="email" required
+                    aria-label="Seu e-mail">
+                <input class="input" type="text" maxlength="100" placeholder="Sua mensagem" id="mensagem"
+                    name="mensagem" required aria-label="Sua mensagem">
+
+                <button type="submit" class="button_form" aria-label="Enviar mensagem">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <figure>
+            <img src="assets/midea/logo-cafe-sf.png" alt="Logotipo Café Jacu">
+        </figure>
+
+        <section class="section_mae_footer" aria-label="Links para início">
+            <h2><b>Inicio</b></h2>
+            <a href="#section2" aria-label="Ir para a seção Destaques">Destaques</a>
+            <a href="#apresentacao" aria-label="Ir para a seção Sobre">Sobre</a>
+            <a href="index.html" aria-label="Ir para a página inicial">Home</a>
+        </section>
+
+        <section class="section_mae_footer" aria-label="Links sobre nós">
+            <h2><b>Sobre nós</b></h2>
+            <a href="sobre.html" aria-label="Ver informações sobre nós">Informações</a>
+            <a href="produtos.html" aria-label="Ver produtos">Produtos</a>
+            <a href="contato.html" aria-label="Abrir contato">Contato</a>
+        </section>
+
+        <section class="section_mae_footer" aria-label="Links de contato">
+            <h2><b>Contato</b></h2>
+            <a href="contato.html" aria-label="Ir para o formulário de contato">Formulário</a>
+            <a href="contato.html" aria-label="Ir para Instagram">Instagram</a>
+            <a href="contato.html" aria-label="Ir para G-mail">G-mail</a>
+        </section>
+
+        <section class="section_mae_icones_rodape" aria-label="Ícones de redes sociais">
+            <section id="section_icones_rodape">
+                <a href="#" aria-label="Abrir Instagram">
+                    <figure id="rodape1" class="icones_rodape">
+                        <img src="assets/midea/icone-instagram.png" alt="Ícone do Instagram">
+                    </figure>
+                </a>
+                <a href="#" aria-label="Abrir e-mail">
+                    <figure id="rodape2" class="icones_rodape">
+                        <img src="assets/midea/icone-email.png" alt="Ícone de e-mail">
+                    </figure>
+                </a>
+                <a href="#" aria-label="Abrir WhatsApp">
+                    <figure id="rodape3" class="icones_rodape">
+                        <img src="assets/midea/icone-whatsapp.png" alt="Ícone do WhatsApp">
+                    </figure>
+                </a>
+            </section>
+            <button id="button_rodape" aria-label="Ir para a página de contato"><a href="contato.html">Contato</a></button>
+        </section>
+    </footer>
+</body>
+
+</html>
